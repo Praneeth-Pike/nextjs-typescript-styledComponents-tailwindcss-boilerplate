@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
+import tw from "twin.macro"
 
 const Home = () => {
 	return (
@@ -13,7 +14,7 @@ const Home = () => {
 			</Head>
 
 			<main>
-				<h1>Hello!</h1>
+				<h1 tw="text-6xl font-bold">Hello!</h1>
 			</main>
 
 			<footer>
